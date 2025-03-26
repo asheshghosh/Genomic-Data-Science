@@ -5,4 +5,9 @@ Here I will describe different algorithms and best practices for Genomic Data Sc
 
 ## Part 1:
 #### Basics of DNA strings
-#### Basics of DNA strings
+#### Given two strings we want to know what is the longest common sequence?
+#### Check if two given strings are same?
+#### Obtain the complementary strand of a given sequence
+#### Obtain the sequence of a virus (use the lambda_virus.fa file)
+#### Count the individual nucleobases in the genome
+#### An example using Python's matplotlib to plot a histogram of the base counts for A, T, G, and C
