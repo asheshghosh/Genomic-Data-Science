@@ -3,7 +3,7 @@ Algorithms for Genomic Data Science
 
 Here I will describe different algorithms and best practices for Genomic Data Science.
 
-## Part 1:
+## Part 1 (use DNA Strings notebook)
 #### Basics of DNA strings
 #### Given two strings we want to know what is the longest common sequence?
 #### Check if two given strings are same?
