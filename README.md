@@ -28,3 +28,8 @@ Here I will describe different algorithms and best practices for Genomic Data Sc
 ##### Plot a histogram of regions that match
 
 
+### Part 1.4 (use Lambda Virus Genome notebook)
+##### Implement concepts on the lambda virus genome
+##### Same for Human genome
+
+
