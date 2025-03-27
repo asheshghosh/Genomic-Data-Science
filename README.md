@@ -2,7 +2,7 @@
 Algorithms for Genomic Data Science
 Here I will describe different algorithms and best practices for Genomic Data Science.
 
-### Part 1 (use DNA Strings notebook)
+### Part 1.1 (use DNA Strings notebook)
 ##### Basics of DNA strings
 ##### Given two strings we want to know what is the longest common sequence?
 ##### Check if two given strings are same?
@@ -12,9 +12,19 @@ Here I will describe different algorithms and best practices for Genomic Data Sc
 ##### An example using Python's matplotlib to plot a histogram of the base counts for A, T, G, and C
 
 
-### Part 2 (use DNA Sequence notebook)
+### Part 1.2 (use DNA Sequence notebook)
 ##### Download model DNA sequence data in fastq format
 ##### Read the file and generate sequence and quality
 ##### Convert quality scores to numbers
 ##### Plot the scores
 ##### Determine GC content of the species in question
+
+
+### Part 1.3 (use DNA Sequence Matching notebook)
+##### Obtain the file for phix
+##### Read the genome and create a matching algorithm
+##### Download a sequence and see the matching algorithm
+##### Combine matching in the complementary strand of DNA
+##### Plot a histogram of regions that match
+
+
