@@ -11,6 +11,8 @@ Welcome to the **Genomic Data Science** repository. Here, you'll find algorithms
 - [Part 1.3: DNA Sequence Matching Notebook](#part-13-dna-sequence-matching-notebook)
 - [Part 1.4: Lambda Virus Genome Notebook](#part-14-lambda-virus-genome-notebook)
 - [Part 2.1: Approx Boyer Moore Notebook](#part-21-approx-boyer-moore-notebook)
+- [Part 2.2: DNA Indexing Notebook](#part-22-dna-indexing-notebook)
+- [Part 2.3: Approximate Matching Notebook](#part-23-approximate-matching-notebook)
 
 ---
 
