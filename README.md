@@ -10,6 +10,7 @@ Welcome to the **Genomic Data Science** repository. Here, you'll find algorithms
 - [Part 1.2: DNA Sequence Notebook](#part-12-dna-sequence-notebook)
 - [Part 1.3: DNA Sequence Matching Notebook](#part-13-dna-sequence-matching-notebook)
 - [Part 1.4: Lambda Virus Genome Notebook](#part-14-lambda-virus-genome-notebook)
+- [Part 2: Approx Boyer Moore Notebook](#part-2-approx-boyer-moore-notebook)
 
 ---
 
@@ -99,6 +100,46 @@ Apply genomic data science techniques on the Lambda virus genome and extend thes
 
 - **Human Genome Analysis**  
   Extend the concepts and algorithms to analyze the Human genome.
+
+---
+
+## Part 2: Approx Boyer Moore Notebook
+
+While exact matching algorithms have been extensively studied, real-world genomic applications often demand approximate matching methods. However, when exact matching is appropriate, the **Boyer-Moore algorithm** stands out due to its exceptional efficiency in scanning massive DNA sequences. By leveraging heuristics like the bad-character and good-suffix rules, Boyer-Moore frequently skips large sections of the text, dramatically reducing the number of comparisons compared to naive methods.
+
+### Advantages of the Boyer-Moore Algorithm in Genomic Data Science
+
+- **Efficiency:**  
+  Operates in sublinear time on average by quickly eliminating unlikely match positions, making it ideal for handling vast genomic datasets.
+
+- **Reduced Comparisons:**  
+  Employs heuristics that minimize unnecessary character comparisons, significantly speeding up the search process.
+
+- **Effective Preprocessing:**  
+  Preprocesses the pattern in linear time, a beneficial feature when the same pattern is used to search across extensive genomic data.
+
+- **Scalability:**  
+  Its computational efficiency allows it to scale effectively to large DNA sequences, a critical requirement in genomic research.
+
+- **Adaptability:**  
+  The core principles of Boyer-Moore can be extended to support approximate matching, addressing biological variability where perfect matches are rare.
+
+Overall, the Boyer-Moore algorithm is a robust and adaptable tool for efficient and effective pattern matching in genomic research.
+
+
+### More algorithms
+
+#### Raita Algorithm
+
+The Raita algorithm is a variant of the Boyer-Moore string matching algorithm that improves performance by performing quick pre-checks. Specifically, it first compares the last, first, and middle characters of the pattern against the corresponding characters in the text. Only if these key positions match does it proceed to a full comparison of the entire pattern. This strategy reduces the number of unnecessary character comparisons, making the algorithm more efficient when scanning large texts, such as genomic sequences.
+
+#### Apostolico–Giancarlo Algorithm
+
+The Apostolico–Giancarlo algorithm is an optimized string matching method that refines the Boyer–Moore approach. It introduces a skip mechanism that avoids rechecking characters that have already been matched in previous alignments, thereby reducing redundant comparisons. This makes the algorithm particularly efficient in scenarios with overlapping or repetitive pattern occurrences, offering improved performance in worst-case cases while maintaining the benefits of Boyer–Moore’s heuristics such as the bad-character and good-suffix rules.
+
+#### Knuth–Morris–Pratt Algorithm
+
+The Knuth–Morris–Pratt (KMP) algorithm is an efficient string matching method that preprocesses the pattern to create a "failure function" (or prefix function). This function indicates the longest proper prefix of the pattern that is also a suffix, enabling the algorithm to bypass redundant comparisons when a mismatch occurs. By doing so, KMP achieves a worst-case time complexity of O(n + m), where n is the length of the text and m is the length of the pattern, making it highly effective for searching within large texts.
 
 ---
 
