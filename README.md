@@ -13,6 +13,7 @@ Welcome to the **Genomic Data Science** repository. Here, you'll find algorithms
 - [Part 2.1: Approx Boyer Moore Notebook](#part-21-approx-boyer-moore-notebook)
 - [Part 2.2: DNA Indexing Notebook](#part-22-dna-indexing-notebook)
 - [Part 2.3: Approximate Matching Notebook](#part-23-approximate-matching-notebook)
+- [Part 2.4: Homo Sapiens Notebook](#part-23-homo-sapiens-notebook)
 
 ---
 
@@ -142,6 +143,18 @@ The Apostolico–Giancarlo algorithm is an optimized string matching method that
 #### Knuth–Morris–Pratt Algorithm
 
 The Knuth–Morris–Pratt (KMP) algorithm is an efficient string matching method that preprocesses the pattern to create a "failure function" (or prefix function). This function indicates the longest proper prefix of the pattern that is also a suffix, enabling the algorithm to bypass redundant comparisons when a mismatch occurs. By doing so, KMP achieves a worst-case time complexity of O(n + m), where n is the length of the text and m is the length of the pattern, making it highly effective for searching within large texts.
+
+---
+
+## Part 2.2: DNA Indexing Notebook
+
+---
+
+## Part 2.3: Approximate Matching Notebook
+
+---
+
+## Part 2.4: Homo Sapiens Notebook
 
 ---
 
