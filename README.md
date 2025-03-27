@@ -10,7 +10,7 @@ Welcome to the **Genomic Data Science** repository. Here, you'll find algorithms
 - [Part 1.2: DNA Sequence Notebook](#part-12-dna-sequence-notebook)
 - [Part 1.3: DNA Sequence Matching Notebook](#part-13-dna-sequence-matching-notebook)
 - [Part 1.4: Lambda Virus Genome Notebook](#part-14-lambda-virus-genome-notebook)
-- [Part 2: Approx Boyer Moore Notebook](#part-2-approx-boyer-moore-notebook)
+- [Part 2.1: Approx Boyer Moore Notebook](#part-21-approx-boyer-moore-notebook)
 
 ---
 
@@ -103,7 +103,7 @@ Apply genomic data science techniques on the Lambda virus genome and extend thes
 
 ---
 
-## Part 2: Approx Boyer Moore Notebook
+## Part 2.1: Approx Boyer Moore Notebook
 
 While exact matching algorithms have been extensively studied, real-world genomic applications often demand approximate matching methods. However, when exact matching is appropriate, the **Boyer-Moore algorithm** stands out due to its exceptional efficiency in scanning massive DNA sequences. By leveraging heuristics like the bad-character and good-suffix rules, Boyer-Moore frequently skips large sections of the text, dramatically reducing the number of comparisons compared to naive methods.
 
