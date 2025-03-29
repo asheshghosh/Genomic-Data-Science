@@ -1,6 +1,6 @@
 # Genomic Data Science
 
-Welcome to the **Genomic Data Science** repository. Here, you'll find algorithms and best practices for genomic data analysis, ranging from basic DNA string manipulation to advanced sequence matching and genome assembly.
+Welcome to the **Genomic Data Science** repository. In this repository, you'll find algorithms and best practices for Genomic Data Analysis, ranging from basic DNA string manipulation to advanced sequence matching and genome assembly.
 
 ---
 
@@ -16,8 +16,8 @@ Welcome to the **Genomic Data Science** repository. Here, you'll find algorithms
 - [Part 2.4: Homo Sapiens Chromosome 1 GRCh38 Notebook](#part-23-homo-sapiens-chromosome-1-GRCh38-notebook)
 - [Part 3.1: Dynamic Programming and Distances Notebook](#part-31-dynamic-programming-and-distances-notebook)
 - [Paret 3.2: Dynamic Programming Application Notebook](#part-32-dynamic-programming-application-notebook)
-- [Part 4.1:]
-- [Part 4.2:]
+- [Part 4.1: Notebook](#part-41---notebook)
+- [Part 4.2: Notebook](#part-42---notebook)
 
 ---
 
@@ -166,7 +166,7 @@ The Knuth–Morris–Pratt (KMP) algorithm is an efficient string matching metho
 
 ---
 
-## Part 3.1: Dynamic Programming Application Notebook
+## Part 3.2: Dynamic Programming Application Notebook
 
 ---
 
